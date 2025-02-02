@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayesha Naseer - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header and Navigation Bar -->
+  <header>
+    <div class="container header-content">
+      <div class="logo">
+        <a href="#">Ayesha Naseer</a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li> 
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-content">
+          <div class="text-1">Hello, my name is</div>
+          <div class="text-2">Ayesha Naseer</div>
+          <div class="text-3">And I'm a <span class="typing"></span></div>
+          <a href="#contact">Hire me</a>
+        </div>
+        <div class="image-wrapper">
+          <!-- Add your profile/image here -->
+          <img src="images\download.jpeg" alt="Ayesha Naseer">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title">About me</h2>
+      <div class="about-content">
+        <div class="column left">
+          <img src="images\download.jpeg" alt="Ayesha Naseer">
+        </div>
+        <div class="column right">
+          <div class="text">I'm Ayesha Naseer and I'm a <span class="typing-2"></span></div>
+          <p>
+            I am a passionate and dedicated Software Engineering student with expertise in software development, testing, and project management. I have experience in multiple programming languages including C++, C#, Java, Python, JavaScript, and R. My projects include a multilingual dictionary application, a Railway Management System, and a Statistical Analysis application.
+          </p>
+          <p>
+            I specialize in Software Quality Engineering, Web3.0 testing, and API testing using RestAssured. I am always eager to learn new technologies and apply them to solve real-world problems. My goal is to contribute to innovative projects that make a positive impact on society.
+          </p>
+          <a href="#">Download CV</a>
+        </div>
+      </div>
+    </div>
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">Technical Arsenal</h2>
+            <div class="skills-grid">
+                <!-- Programming Languages Card -->
+                <div class="skill-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <i class="fas fa-code"></i>
+                            <h3>Languages</h3>
+                        </div>
+                        <div class="card-back">
+                            <ul>
+                                <li>Java</li>
+                                <li>Python</li>
+                                <li>JavaScript</li>
+                                <li>C/C++</li>
+                                <li>C#</li>
+                                <li>R</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="glow"></div>
+                </div>
+    
+                <!-- Testing Card -->
+                <div class="skill-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <i class="fas fa-vial"></i>
+                            <h3>Testing</h3>
+                        </div>
+                        <div class="card-back">
+                            <ul>
+                                <li>Web3.0 Testing</li>
+                                <li>RestAssured API</li>
+                                <li>Unit Testing</li>
+                                <li>Performance Testing</li>
+                                <li>JUnit/TestNG</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="glow"></div>
+                </div>
+    
+                <!-- Development Card -->
+                <div class="skill-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <i class="fas fa-laptop-code"></i>
+                            <h3>Development</h3>
+                        </div>
+                        <div class="card-back">
+                            <ul>
+                                <li>Full-Stack Dev</li>
+                                <li>JavaFX</li>
+                                <li>.NET Framework</li>
+                                <li>Web Scraping</li>
+                                <li>Client-Server Arch</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="glow"></div>
+                </div>
+    
+                <!-- Engineering Card -->
+                <div class="skill-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <i class="fas fa-cogs"></i>
+                            <h3>Engineering</h3>
+                        </div>
+                        <div class="card-back">
+                            <ul>
+                                <li>OOP Principles</li>
+                                <li>SDLC Management</li>
+                                <li>Requirements Analysis</li>
+                                <li>Database Design</li>
+                                <li>UML Modeling</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="max-width">
+          <h2 class="title">Projects</h2>
+          <div class="project-grid">
+              <!-- Project 1 -->
+              <div class="project-card">
+                  <div class="project-content">
+                      <div class="project-image">
+                          <img src="images\Dic.png" alt="Multilingual Dictionary">
+                          <div class="project-overlay"></div>
+                      </div>
+                      <div class="project-info">
+                          <h3>Multilingual Dictionary</h3>
+                          <p class="project-desc">Web scraping application with JavaFX frontend, supporting custom dictionary uploads and multithreading.</p>
+                          <div class="tech-stack">
+                              <span>Java</span>
+                              <span>Web Scraping</span>
+                              <span>JavaFX</span>
+                          </div>
+                          <div class="project-links">
+                              <a href="#" class="project-link">Demo <i class="fas fa-external-link-alt"></i></a>
+                              <a href="#" class="project-link">Code <i class="fab fa-github"></i></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+  
+              <!-- Project 2 -->
+              <div class="project-card">
+                  <div class="project-content">
+                      <div class="project-image">
+                          <img src="images\railway.png" alt="Railway Management">
+                          <div class="project-overlay"></div>
+                      </div>
+                      <div class="project-info">
+                          <h3>Railway Management System</h3>
+                          <p class="project-desc">C# application with Oracle backend for efficient ticket management and scheduling.</p>
+                          <div class="tech-stack">
+                              <span>C#</span>
+                              <span>Oracle</span>
+                              <span>.NET</span>
+                          </div>
+                          <div class="project-links">
+                              <a href="#" class="project-link">Demo <i class="fas fa-external-link-alt"></i></a>
+                              <a href="#" class="project-link">Code <i class="fab fa-github"></i></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+  
+              <!-- Add more projects as needed -->
+          </div>
+      </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="script.js"></script>
+</body>
+</html>
