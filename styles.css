@@ -924,14 +924,6 @@
   border-color: var(--text-color);
 }
 
-.cta-button {
-  width: 100%;
-  text-align: center;
-}
-
-.cta-button i {
-  margin-right: 10px;
-}
 
 /* Social Links Grid */
 .social-grid {
