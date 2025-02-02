@@ -32,23 +32,40 @@
     </div>
   </header>
 
-  <!-- Home Section -->
-  <section class="home" id="home">
-    <div class="max-width">
-      <div class="home-content">
-        <div class="text-content">
-          <div class="text-1">Hello, my name is</div>
-          <div class="text-2">Ayesha Naseer</div>
+<!-- Home Section -->
+<section class="home" id="home">
+  <div class="hero-container">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h4 class="greeting">HELLO WORLD!</h4>
+        <h1 class="name-title">
+          <span class="name-gradient">Ayesha</span>
+          Naseer
+        </h1>
+        <!-- Preserved Profession Section -->
+        <div class="profession-container">
           <div class="text-3">And I'm a <span class="typing"></span></div>
-          <a href="#contact">Hire me</a>
         </div>
-        <div class="image-wrapper">
-          <!-- Add your profile/image here -->
-          <img src="images\download.jpeg" alt="Ayesha Naseer">
+
+        <div class="cta-container">
+          <a href="#contact" class="cta-button">
+            <span>Hire Me</span>
+            <div class="hover-effect"></div>
+          </a>
+          
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="image-container">
+          <img src="images/download.jpeg" alt="Ayesha Naseer">
         </div>
       </div>
     </div>
-  </section>
+    
+  </div>
+  <div class="diagonal-background"></div>
+</section>
 
   <section class="about" id="about">
     <div class="max-width">
@@ -210,7 +227,65 @@
           </div>
       </div>
   </section>
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <div class="container">
+    <h2 class="title">Contact Me</h2>
+    
+    <div class="contact-content">
+      <!-- Contact Form -->
+      <div class="contact-column left">
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea name="message" rows="5" placeholder="Your Message..." required></textarea>
+          </div>
+          <button type="submit" class="cta-button">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
 
+      <!-- Social Links -->
+      <div class="contact-column right">
+        <div class="social-container">
+          <h3>Find me on</h3>
+          <div class="social-grid">
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="social-card">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" class="social-card">
+              <i class="fab fa-linkedin-in"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener" class="social-card">
+              <i class="fab fa-twitter"></i>
+              <span>Twitter</span>
+            </a>
+            <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener" class="social-card">
+              <i class="fab fa-instagram"></i>
+              <span>Instagram</span>
+            </a>
+            <a href="https://yourportfolio.com" target="_blank" rel="noopener" class="social-card">
+              <i class="fas fa-globe"></i>
+              <span>Portfolio</span>
+            </a>
+            <a href="mailto:youremail@example.com" class="social-card">
+              <i class="fas fa-envelope"></i>
+              <span>Email</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script src="script.js"></script>
